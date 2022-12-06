@@ -1,0 +1,12 @@
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\bin\Debug\net6.0\crosscutting.deps.json
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\bin\Debug\net6.0\crosscutting.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\bin\Debug\net6.0\crosscutting.pdb
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.csproj.AssemblyReference.cache
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.AssemblyInfoInputs.cache
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.AssemblyInfo.cs
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.csproj.CoreCompileInputs.cache
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\refint\crosscutting.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.pdb
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.CrossCutting\obj\Debug\net6.0\ref\crosscutting.dll
