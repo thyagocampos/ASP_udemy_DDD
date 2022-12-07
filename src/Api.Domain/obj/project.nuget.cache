@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lOKucqHKVKDNdPLQ5GVkwdQwvN36hpqyd01gZGvm2nWmV9Ha0yVGoRr03PsgWXccCYBXDrP5KyGlNNw4ZLcx6Q==",
+  "dgSpecHash": "gaQtrjCGtPJWI7lks2g7rIFGVno1ZXXxOSQICLCuAHLxPeFLuxSbvQ/A/GhRT1eYSWhOir9Br/yUsaziYp9D8A==",
   "success": true,
-  "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

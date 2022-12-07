@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2ZkLptsNk6lfN+dWsamMg2OmHU5AJ/QlvKftiM6Sprur97Z3p+EzYbvu8dIxjbZQo41Dc+/PzohyMEd2sFNW/A==",
+  "dgSpecHash": "KqNRpGXX886ZXVeXiN0mQjRaCKKzdOOMjwdHaFgd3gzI8mfcXa60MBMS93iMFd+Yi1u1XnHwv0QWJrImoBKX4A==",
   "success": true,
-  "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.Data\\Data.csproj",
+  "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thyag\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

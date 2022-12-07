@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bJG6bBoRUIL6UY2VekJ/qBK7Q8+xGNAuHFambZ5PUAPUyg9B55N0HL3Y3rvjJe8iB4cqCWOyzwtNiNVZ64GMnQ==",
+  "dgSpecHash": "AHYYECFniyZ6Nvvc4iKhuQApJuPqKk2R/9uJj41zTcKQYkPlH2GIZzOzSXu5DURY0pE3fdryN5fqT0fkPvWBbw==",
   "success": true,
-  "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.CrossCutting\\crosscutting.csproj",
+  "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.CrossCutting\\crosscutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

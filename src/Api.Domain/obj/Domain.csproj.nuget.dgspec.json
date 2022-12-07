@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.Domain\\Domain.csproj": {}
+    "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.Domain\\Domain.csproj": {
+    "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\thyag\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\src\\Api.Domain\\obj\\",
+        "outputPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

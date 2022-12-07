@@ -10,3 +10,15 @@ D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.Domain\obj
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.Domain\obj\Debug\net6.0\refint\Domain.dll
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.Domain\obj\Debug\net6.0\Domain.pdb
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\src\Api.Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\bin\Debug\net6.0\Domain.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\bin\Debug\net6.0\Domain.pdb
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\Domain.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\Domain.pdb
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Domain\obj\Debug\net6.0\ref\Domain.dll

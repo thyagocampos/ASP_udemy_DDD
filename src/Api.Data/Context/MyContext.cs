@@ -1,3 +1,4 @@
+using Api.Data.Mapping;
 using Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +12,12 @@ namespace Api.Data.Context
 
         protected override void OnModelCreating (ModelBuilder modelBuilder){
             base.OnModelCreating(modelBuilder);
+        
+        //Why use model builder?
+        //In Entity Framework Core, the ModelBuilder class acts as a Fluent API. By using it, we can configure many different things, as it provides more configuration options than data annotation attributes. 
+        //https://www.entityframeworktutorial.net/efcore/fluent-api-in-entity-framework-core.aspx
+
+            modelBuilder.Entity<UserEntity>(new UserMap().Configure);
         }
     }
 }
