@@ -814,6 +814,16 @@
           }
         }
       },
+      "crosscutting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/crosscutting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/crosscutting.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2088,6 +2098,11 @@
         "version.txt"
       ]
     },
+    "crosscutting/1.0.0": {
+      "type": "project",
+      "path": "../Api.CrossCutting/crosscutting.csproj",
+      "msbuildProject": "../Api.CrossCutting/crosscutting.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Api.Domain/Domain.csproj",
@@ -2100,7 +2115,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.11",
-      "Pomelo.EntityFrameworkCore.MySql >= 6.0.2"
+      "Pomelo.EntityFrameworkCore.MySql >= 6.0.2",
+      "crosscutting >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2136,6 +2152,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.CrossCutting\\crosscutting.csproj": {
+              "projectPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.CrossCutting\\crosscutting.csproj"
+            },
             "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj": {
               "projectPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj"
             }

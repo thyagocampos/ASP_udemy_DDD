@@ -29,3 +29,5 @@ D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-C
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Data\obj\Debug\net6.0\Data.pdb
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Data\obj\Debug\net6.0\ref\Data.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Data\bin\Debug\net6.0\crosscutting.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Data\bin\Debug\net6.0\crosscutting.pdb

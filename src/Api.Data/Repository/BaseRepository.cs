@@ -1,6 +1,7 @@
 using Api.Data.Context;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
+using Api.CrossCutting.Exceptions;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
@@ -67,16 +68,20 @@ namespace Api.Data.Repository
             return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
-        public async Task<T?> SelectAsync(Guid id)
+        public async Task<T> SelectAsync(Guid id)
         {
             try
             {
-                var result = await _dataset.SingleOrDefaultAsync(p=> p.Id.Equals(id));
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+
+                if (result == null)
+                    throw new RecordIsNullException("Record is null");
+
                 return result;
             }
             catch (System.Exception)
             {
-                
+
                 throw;
             }
         }
@@ -100,7 +105,8 @@ namespace Api.Data.Repository
                 var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
 
                 if (result == null)
-                    return null;
+                    throw new RecordIsNullException("Record is null");
+
 
                 item.UpdateAt = DateTime.UtcNow;
                 item.CreateAt = result.CreateAt;
@@ -111,10 +117,10 @@ namespace Api.Data.Repository
                 await _context.SaveChangesAsync();
 
             }
-            catch (System.Exception )
+            catch (System.Exception)
             {
 
-                throw ;
+                throw;
             }
 
             return item;

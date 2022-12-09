@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.11",
-          "Pomelo.EntityFrameworkCore.MySql": "6.0.2"
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.2",
+          "crosscutting": "1.0.0"
         },
         "runtime": {
           "Data.dll": {}
@@ -506,6 +507,11 @@
           }
         }
       },
+      "crosscutting/1.0.0": {
+        "runtime": {
+          "crosscutting.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
@@ -833,6 +839,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "crosscutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Domain/1.0.0": {
       "type": "project",
