@@ -1,4 +1,4 @@
-namespace Api.CrossCutting.Exceptions
+namespace Api.Data.Exceptions
 {
     [Serializable]
     public class RecordIsNullException : Exception

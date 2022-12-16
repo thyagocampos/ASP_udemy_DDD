@@ -22,3 +22,10 @@ D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-C
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\obj\Debug\net6.0\refint\crosscutting.dll
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.pdb
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\obj\Debug\net6.0\ref\crosscutting.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\bin\Debug\net6.0\Data.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\bin\Debug\net6.0\Domain.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\bin\Debug\net6.0\Service.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\bin\Debug\net6.0\Service.pdb
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\bin\Debug\net6.0\Domain.pdb
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\bin\Debug\net6.0\Data.pdb
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.CrossCutting\obj\Debug\net6.0\crosscutting.csproj.CopyComplete

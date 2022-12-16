@@ -1,7 +1,7 @@
 using Api.Data.Context;
+using Api.Data.Exceptions;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces;
-using Api.CrossCutting.Exceptions;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,7 +9,6 @@ namespace Api.Data.Repository
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
-
         protected readonly MyContext _context;
 
         private DbSet<T> _dataset;
@@ -106,7 +105,6 @@ namespace Api.Data.Repository
 
                 if (result == null)
                     throw new RecordIsNullException("Record is null");
-
 
                 item.UpdateAt = DateTime.UtcNow;
                 item.CreateAt = result.CreateAt;
