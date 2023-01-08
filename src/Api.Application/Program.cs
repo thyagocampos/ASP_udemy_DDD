@@ -1,6 +1,4 @@
 using Api.CrossCutting.DependencyInjection;
-using Api.Data.Context;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,10 +8,6 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddDbContext<MyContext>(
-    options => options.UseMySql("Server=localhost;Port=3306;Database=Course;Uid=root;Pwd=root",
-    ServerVersion.AutoDetect("Server=localhost;Port=3306;Database=Course;Uid=root;Pwd=root")));
 
 //Chamando a injeção de dependência da camada crosscutting
 ConfigureService.ConfigureDependencyService(builder.Services);          //serviços
@@ -25,7 +19,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+        options.RoutePrefix = string.Empty;
+    });
 }
 
 app.UseAuthorization();

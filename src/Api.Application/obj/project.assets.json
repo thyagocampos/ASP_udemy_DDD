@@ -890,6 +890,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "Data": "1.0.0",
           "Domain": "1.0.0",
           "Service": "1.0.0"
         },

@@ -29,7 +29,6 @@ namespace Api.Data.Repository
                 _dataset.Remove(result);
 
                 await _context.SaveChangesAsync();
-
             }
             catch (System.Exception)
             {

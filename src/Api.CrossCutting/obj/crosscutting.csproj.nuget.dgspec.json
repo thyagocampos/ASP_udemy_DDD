@@ -33,6 +33,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Data\\Data.csproj"
+              },
               "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj": {
                 "projectPath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj"
               },
