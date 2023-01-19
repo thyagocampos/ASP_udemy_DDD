@@ -1,6 +1,6 @@
 using Api.Domain.Entities;
 
-namespace Api.Domain.Interfaces
+namespace Api.Domain.Repository
 {
     public interface IRepository<T> where T:BaseEntity
     {

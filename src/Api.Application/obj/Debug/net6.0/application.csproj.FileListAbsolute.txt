@@ -97,3 +97,4 @@ D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-C
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Application\obj\Debug\net6.0\ref\Application.dll
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Application\bin\Debug\net6.0\AutoMapper.dll
 D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Application\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projetos de desenvolvimento\Laboratório_ASP\ASP_udemy_DDD\DDD-with-ASP.net-Core\src\Api.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

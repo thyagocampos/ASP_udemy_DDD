@@ -1,7 +1,7 @@
 using Api.Data.Context;
 using Api.Data.Exceptions;
 using Api.Domain.Entities;
-using Api.Domain.Interfaces;
+using Api.Domain.Repository;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 

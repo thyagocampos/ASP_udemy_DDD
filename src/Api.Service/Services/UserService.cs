@@ -1,5 +1,5 @@
 using Api.Domain.Entities;
-using Api.Domain.Interfaces;
+using Api.Domain.Repository;
 using Api.Domain.Interfaces.Services.Interfaces;
 
 namespace Api.Service.Services

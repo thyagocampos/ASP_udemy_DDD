@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "gaQtrjCGtPJWI7lks2g7rIFGVno1ZXXxOSQICLCuAHLxPeFLuxSbvQ/A/GhRT1eYSWhOir9Br/yUsaziYp9D8A==",
+  "dgSpecHash": "CvCbyWHN8MkPsnUqo/Vwu9XVu2SGDDReOEys+p4+duYJocnqVVXSq58Mi+F7QaLpU+LPVkhNcUaaos0hI4MFbA==",
   "success": true,
   "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\thyag\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.25.1\\microsoft.identitymodel.abstractions.6.25.1.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.25.1\\microsoft.identitymodel.jsonwebtokens.6.25.1.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\microsoft.identitymodel.logging\\6.25.1\\microsoft.identitymodel.logging.6.25.1.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.25.1\\microsoft.identitymodel.tokens.6.25.1.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.25.1\\system.identitymodel.tokens.jwt.6.25.1.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }
