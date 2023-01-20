@@ -49,6 +49,8 @@ namespace Api.Service.Services
                 }
                 else
                 {
+                    user.Name = baseUser.Name;
+
                     ClaimsIdentity identity = new ClaimsIdentity(new GenericIdentity(baseUser.Email), new[]
                     {
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
@@ -90,11 +92,12 @@ namespace Api.Service.Services
         {
             return new
             {
-                authenticated = true, 
+                authenticated = true,
                 created = createDate.ToString("yyyy-MM-dd HH:mm:ss"),
                 expirationDate = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
-                accessToken = token, 
-                userName = user.Email, 
+                accessToken = token,
+                userName = user.Email,
+                name = user.Name,
                 message = "Usuário logado com sucesso"
             };
         }

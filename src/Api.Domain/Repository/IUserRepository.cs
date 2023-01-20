@@ -5,7 +5,7 @@ namespace Api.Domain.Repository
 {
     public interface IUserRepository : IRepository<UserEntity>
     {
-        Task<UserEntity> FindbyLogin(string email);
+        Task<UserEntity?> FindbyLogin(string email);
 
         
     }

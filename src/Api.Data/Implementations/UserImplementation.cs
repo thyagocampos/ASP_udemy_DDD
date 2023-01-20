@@ -15,11 +15,11 @@ namespace Api.Data.Implementations
             _dataset = context.Set<UserEntity>();
         }
 
-        public async Task<UserEntity> FindbyLogin(string email)
+        public async Task<UserEntity?> FindbyLogin(string email)
         {            
             var userEntity = await _dataset.FirstOrDefaultAsync(u => u.Email.Equals(email));
 
-            return userEntity ?? throw new InvalidOperationException("Sem resultado");
+            return userEntity;
         }
     }
 }
