@@ -1,4 +1,5 @@
 using System.Net;
+using Api.Domain.DTOs.User;
 using Api.Domain.Entities;
 using Api.Domain.Interfaces.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -61,7 +62,7 @@ namespace Api.Application.Controllers
         //localhost:5000/api/Users/json
         [Authorize("Bearer")]
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserEntity user)
+        public async Task<ActionResult> Post([FromBody] UserDtoCreate user)
         {
             if (!ModelState.IsValid)
             {
@@ -71,7 +72,6 @@ namespace Api.Application.Controllers
             try
             {
                 var result = await _service.Post(user);
-
 
                 String? url = Url.Link("GetWithId", new { id = result.Id });
 
@@ -92,7 +92,7 @@ namespace Api.Application.Controllers
         //localhost:5000/api/Users/json
         [Authorize("Bearer")]
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserEntity user)
+        public async Task<ActionResult> Put([FromBody] UserDtoUpdate user)
         {
             if (!ModelState.IsValid)
             {
@@ -102,7 +102,6 @@ namespace Api.Application.Controllers
             try
             {
                 var result = await _service.Put(user);
-
 
                 String? url = Url.Link("GetWithId", new { id = result.Id });
 

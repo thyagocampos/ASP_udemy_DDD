@@ -20,7 +20,10 @@
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DB_CONNECTION": "Server=localhost;Port=3306;Database=dbapi;Uid=root;Pwd=Tico191185",
+                "DATABASE": "MySQL",
+                "MIGRATION": "NAOAPLICAR"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"

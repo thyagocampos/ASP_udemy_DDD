@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PAuC8v9ffQgXeDnfUuJxB2EXCnio09nq35tsVC/JelMDYu7SFf/0oRB7qXM+2VP1FLMzD6mbJ+OgwRRNn0UkTQ==",
+  "dgSpecHash": "6NEVz4Y8dJndCt1M0E5qunm3RUmtR/PHNuLzwDcHn2tVEEifu5bTdFdjFln8101uXy9gT9Kcj7FkcH4EzVWzng==",
   "success": true,
   "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thyag\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.13\\microsoft.aspnetcore.authentication.jwtbearer.6.0.13.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

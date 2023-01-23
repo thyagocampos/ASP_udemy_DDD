@@ -1,7 +1,11 @@
 using Api.CrossCutting.DependencyInjection;
+using Api.CrossCutting.Mappings;
+using Api.Data.Context;
 using Api.Domain.Security;
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
@@ -76,6 +80,19 @@ internal class Program
         ConfigureService.ConfigureDependencyService(builder.Services);          //serviços
         ConfigureRepository.ConfigureDependencyRepository(builder.Services);    //repositório
 
+        //Automapper
+        var config = new AutoMapper.MapperConfiguration(cfg =>
+        {
+            cfg.AddProfile(new DtoToModelProfile());
+            cfg.AddProfile(new EntityToDtoProfile());
+            cfg.AddProfile(new ModelToEntityProfile());
+        }
+        );
+
+        IMapper mapper = config.CreateMapper();
+
+        builder.Services.AddSingleton(mapper);
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -92,6 +109,25 @@ internal class Program
         app.UseAuthorization();
 
         app.MapControllers();
+
+        string? aplicarMigration = "";
+        aplicarMigration = Environment.GetEnvironmentVariable("MIGRATION");
+
+        if (aplicarMigration != null)
+        {
+            if (aplicarMigration.ToLower() == "APLICAR".ToLower())
+            {
+                using (var service = app.Services.GetRequiredService<IServiceScopeFactory>()
+                .CreateScope())
+                {
+                    using (var context = service.ServiceProvider.GetService<MyContext>())
+                    {
+                        if (context != null)
+                            context.Database.Migrate();
+                    }
+                }
+            }
+        }
 
         app.Run();
     }

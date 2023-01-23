@@ -3,7 +3,6 @@ using System;
 using Api.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
@@ -29,6 +28,7 @@ namespace Data.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
@@ -46,6 +46,16 @@ namespace Data.Migrations
                         .IsUnique();
 
                     b.ToTable("user", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c81ca4ce-ca46-4b65-8b75-a113ee4b6ac4"),
+                            CreateAt = new DateTime(2023, 1, 22, 23, 19, 54, 608, DateTimeKind.Local).AddTicks(7725),
+                            Email = "adm@email.com",
+                            Name = "Administrador",
+                            UpdateAt = new DateTime(2023, 1, 22, 23, 19, 54, 608, DateTimeKind.Local).AddTicks(7740)
+                        });
                 });
 #pragma warning restore 612, 618
         }

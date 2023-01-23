@@ -18,11 +18,32 @@ namespace Api.CrossCutting.DependencyInjection
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
 
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
+            
+            string? env = "";
+            string? dbcon = "";
 
-            serviceCollection.AddDbContext<MyContext>(
-            options => options.UseMySql("Server=localhost;Port=3306;Database=Course;Uid=root;Pwd=Tico191185",
-            ServerVersion.AutoDetect("Server=localhost;Port=3306;Database=Course;Uid=root;Pwd=Tico191185")));
+            dbcon = Environment.GetEnvironmentVariable("DB_CONNECTION");
+
+            if (Environment.GetEnvironmentVariable("DATABASE") != null)
+                env = Environment.GetEnvironmentVariable("DATABASE");
+
+            if (env != null)
+            {
+                if (env.ToLower() == "SQL".ToLower())
+                {
+                    if (dbcon != null)
+                    {
+                        serviceCollection.AddDbContext<MyContext>(options =>
+                                        options.UseSqlServer(dbcon));
+                    }
+                }
+                else if (env.ToLower() == "MYSQL".ToLower())
+                {
+                    serviceCollection.AddDbContext<MyContext>(
+                    options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"),
+                    ServerVersion.AutoDetect(dbcon)));
+                }
+            }
         }
-
     }
 }

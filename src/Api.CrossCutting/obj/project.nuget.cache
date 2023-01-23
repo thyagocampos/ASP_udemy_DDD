@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QAj25KtFhUk2OUUlSMvAT0APM1gvb6y+jnt1XGXcg9nD/6KpKUdqeXc31zPdc2iCT8qSOZel5sxYc/pnOzOYPg==",
+  "dgSpecHash": "J67BHLiHP5xMRlUjYt3x/jukcVC803os5ZACOSp1Cf2eOAUm3f1GZycQjMt06v6568u6rNv76tD0eAB1ikq7Lg==",
   "success": true,
   "projectFilePath": "D:\\Projetos de desenvolvimento\\Laboratório_ASP\\ASP_udemy_DDD\\DDD-with-ASP.net-Core\\src\\Api.CrossCutting\\crosscutting.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thyag\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
